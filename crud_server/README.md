@@ -3,7 +3,7 @@ a simple CRUD REST API server based on Pistache  and  nlohmann JSON library.
 * Pistache: https://github.com/oktal/pistache
 * nlohmann JSON: https://github.com/nlohmann/json
 
-##How to Build and Test:
+## How to Build and Test:
 
 ### Requirement 1 : Download, build and install Pistache:
 ```
