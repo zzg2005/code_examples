@@ -1,11 +1,11 @@
 # crud_server.cc: a simple CRUD REST API server
 a simple CRUD REST API server based on Pistache  and  nlohmann JSON library.
-Pistache: https://github.com/oktal/pistache
-nlohmann JSON: https://github.com/nlohmann/json
+* Pistache: https://github.com/oktal/pistache
+* nlohmann JSON: https://github.com/nlohmann/json
 
 How to Build:
 
-- Download, build and install Pistache:
+- Requirement 1 : Download, build and install Pistache:
 ```
   git clone https://github.com/oktal/pistache.git
   cd pistache
@@ -16,11 +16,11 @@ How to Build:
   make
   sudo make install
 ```  
-- A simple way, just copy 'nlohmann/json.hpp' (from nlohmann JSON library /single_include/)  to C language header file directory of the system such as '/usr/local/include'
+-  Requirement 2: nlohmann JSON library
+* A simple way, just copy 'nlohmann/json.hpp' (from nlohmann JSON library /single_include/)  to C language header file directory of the system such as '/usr/local/include'
 
 OR
-
-- Download, build and install Nlohmann JSON library:
+* Download, build and install Nlohmann JSON library:
 
 ```
   git clone https://github.com/nlohmann/json.git
